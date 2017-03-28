@@ -1,0 +1,35 @@
+{
+  "name": "classhelperhanyang",
+  "version": "1.0.0",
+  "description": "class helper for hanyang erica",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astean1001/ClassHelperReact.git"
+  },
+  "keywords": [
+    "class",
+    "helper"
+  ],
+  "author": "J.H. Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astean1001/ClassHelperReact/issues"
+  },
+  "homepage": "https://github.com/astean1001/ClassHelperReact#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
