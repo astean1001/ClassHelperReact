@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>수업 통합 관리 시스템 :: 한양대학교 ERICA 소프트웨어융합대학</title>
+
+       <!-- load Ink's css from the cdn -->
+        <link rel="stylesheet" type="text/css" href="http://cdn.ink.sapo.pt/3.1.10/css/ink-flex.min.css">
+        <link rel="stylesheet" type="text/css" href="http://cdn.ink.sapo.pt/3.1.10/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/login.css"
+
+        <!-- test browser flexbox support and load legacy grid if unsupported -->
+        <script type="text/javascript" src="http://cdn.ink.sapo.pt/3.1.10/js/modernizr.js"></script>
+        <script type="text/javascript">
+            Modernizr.load({
+              test: Modernizr.flexbox,
+              nope : 'http://cdn.ink.sapo.pt/3.1.10/css/ink-legacy.min.css'
+            });
+        </script>
+
+        <!-- load Ink's javascript files from the cdn -->
+        <script type="text/javascript" src="http://cdn.ink.sapo.pt/3.1.10/js/holder.js"></script>
+        <script type="text/javascript" src="http://cdn.ink.sapo.pt/3.1.10/js/ink-all.min.js"></script>
+        <script type="text/javascript" src="http://cdn.ink.sapo.pt/3.1.10/js/autoload.js"></script>
+   </head>
+ 
+   <body>
+      	<div class="ink-grid">
+  			<div class="column-group push-center push-middle">
+    			<div class="control-group">
+    				<div class="login-page-top">
+    					<image id="logo" src="./image/logo.png"></image>
+    				</div>
+    				<div class="login-page-down">
+        				<div class="login_word">
+        					<label for="Login">한양대학교 수업 통합 관리 시스템 로그인</label>
+        				</div>
+        				<div class="login_input">
+        					<form id="lginform" method="post">
+        						<div class="ids">
+            						<input id="id" name="id" type="text" placeholder="아이디">
+            					</div>
+            					<div class="password">
+            						<input id="pw" name="pw" type="password" placeholder="패스워드">
+            					</div>
+            					<div class="forgot"> <a href="forgot">아이디 / 패스워드 찾기</a></div>
+            					<div class="lginbuts">
+            						<button id="signin" class="ink-button blue">로그인</button>
+            						<button id="signup" class="ink-button blue">회원가입</button>
+            					</div>
+            				</form>
+        				</div>
+        			</div>
+    			</div>
+  			</div>
+		</div>
+      	<script src="bundle.js"></script>
+   </body>
+ 
+</html>
